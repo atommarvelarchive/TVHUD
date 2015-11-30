@@ -1,0 +1,15 @@
+body {
+  padding: 50px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.mdl-card__supporting-text > p, .mdl-card__supporting-text > span {
+  margin-bottom: 0px;
+}
+
+.windowCard {
+  margin-bottom:18px;
+}

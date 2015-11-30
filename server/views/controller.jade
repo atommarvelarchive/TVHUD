@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  span
+    h1= title
+    p Welcome to #{title}, enter json msg below
+    div#windowEditor
+  button#createWindow New Window
+  div#activeWindows
+  script(src='/js/material.js')
+  script(src='/js/socket.io.js')
+  script(src='/js/react/transform.js')
+  script(src='/js/react/react.js')
+  script(src='/js/TVHUDController.js' type="text/jsx")
+

@@ -1,0 +1,23 @@
+{
+  "name": "TVHUD",
+  "version": "0.0.1",
+  "description": "A way to interact with a giant TV.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atommarvel/TVHUD"
+  },
+  "keywords": [
+    "Electron",
+    "TV"
+  ],
+  "author": "Atom",
+  "license": "CC0-1.0",
+  "homepage": "",
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.0"
+  }
+}
